@@ -1,0 +1,1356 @@
+@media (max-width: 1190px ) {
+    /* body */
+    .txtl {
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 4rem;
+    }
+    .txtm {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .txtxs {
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+   
+    /* ヘッダー*/
+    .subtitle {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .hr-txt p {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+        padding: 1.4rem 4rem;
+        border-radius: 2.5rem;
+    }
+
+    /* top */
+    .lets-start {
+        padding: 2rem;
+    }
+    .con-em {
+        background-color: #fff;
+        color: #C8394F;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .request a {
+        margin: 2rem auto 4rem;
+        cursor: pointer;
+        color: #fff;
+        padding: 2.8rem;
+        font-size: 1.8rem;
+        border-radius: 6rem;
+    }
+    .terms p {
+        font-size: 1.8rem;
+        letter-spacing: normal;
+    }
+
+    /* intro */
+    .intro {
+        padding-bottom: 16rem;
+    }
+    .intro h2 {
+        margin: 1rem auto;
+    }
+    .intro p {
+        padding: 2rem 0;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .em-second {
+        font-weight: 600;
+        background: linear-gradient(transparent 70%, #EBB94D 70%);
+    }
+
+    /* about */
+    .about h2 {
+        width: 80%;
+        padding: 2rem 0;
+        margin-bottom: 4rem;
+    }
+
+    /* about-second */
+    .step {
+        display: block;
+        width: 40%;
+        margin: 0 auto 2rem;
+    }
+    .step-title{
+        margin: 1rem auto 2rem;
+        padding: .4rem;
+        border-radius: .5rem;
+    }
+    .step-subtitle {
+        margin: 3rem;
+        font-size: 1.2rem;
+    }
+    .step-txt {
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+    }
+    .step p {
+        font-weight: 600;
+    }
+
+    /* about-third */
+    .about-third p {
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+    }
+
+    /* learning */
+    .learning {
+        padding-bottom: 6rem;
+    }
+    .learning h2 {
+        margin: 5.6rem auto 4rem;
+        font-size: 2.4rem;
+    }
+    .isara::after {
+        font-size: 1.4rem;
+    }
+    .learning p {
+        font-size: 1.5rem;
+    }
+    .last-p {
+        letter-spacing: .2rem;
+    }
+
+    /* merits */
+    .merits-title {
+        padding: 2rem 0;
+    }
+    .merits-title h2 {
+        margin-bottom: 1rem;
+    }
+    .merits-subtitle {
+        font-size: 1.6rem;
+    }
+    .merits {
+        margin-top: 1.5rem;
+    }
+    .merit {
+        width: 100%;
+        margin: 1.4rem;
+    }
+    .merit img {
+        width: 30rem;
+        height: 18rem;
+    }
+    .merit-text {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .merit-title {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bold;
+        padding: 1rem 0;
+    }
+    .merit-text p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .merits-support {
+        width: 90%;
+    }
+    .support-title {
+        font-size: 2.4rem;
+        font-weight: normal;
+        padding: 1.5rem 0 1rem;
+    }
+    .support-text {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding: 0;
+    }
+    .support-text p {
+        letter-spacing: normal;
+    }
+    .support-attention {
+        padding: 0 1rem 2rem;
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .support-attention p {
+        letter-spacing: normal;
+    }
+
+    /* member */
+    .member {
+        width: 40%;
+    }
+    .member-description {
+        font-size: 1.4rem;
+    }
+
+    /* qa */
+    .qa h2 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    /* contents */
+    .contents h2 {
+        padding: 6rem 0 1rem;
+    }
+    .contents p {
+        font-size: 1.4rem;
+    }
+    .tables {
+        margin: 2rem auto 0;
+        font-size: 1.4rem;
+    }
+    .table {
+        flex-basis: 25%;
+        margin: 3rem 3rem 7rem 0;
+    }
+    .table th {
+        font-size: 1.6rem;
+    }
+
+    /* contents-secondここから */
+    .contents-second {
+    font-size: 2rem;
+    }
+
+    /* flows */
+    .fr-bold {
+        font-weight: bold;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    .fr-txt {
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        letter-spacing: normal;
+    }
+
+    /* bangkok */
+    .bangkok h2 {
+        margin: 2rem 0 3rem 3rem;
+    }
+    .bangkok-first-txt {
+        font-size: 1.2rem;
+        letter-spacing: normal;
+    }
+    .bangkok-bold {
+        font-size: 1.4rem;
+    }
+    .bangkok-last-txt {
+        font-size: 1.6rem;
+        padding: 0;
+    }
+
+    /* benefits */
+    .benefits-title {
+        width: 40%;
+    }
+    .benefits-subtitle {
+        font-size: 1.4rem;
+    }
+    .benefit-title {
+        font-size: 2.4rem;
+    }
+
+    /* message-box */
+    .message-box {
+        padding: 4rem 5rem;
+    }
+    .message-sub {
+        font-size: 1.6rem;
+    }
+
+    /* purpose */
+    .purpose-title {
+        font-weight: normal;
+    }
+    .purpose-sub {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .purpose h1 {
+        font-size: 2.4rem;
+    }
+
+    /* contact-form */
+    .item input, .item textarea, .submit input {
+        width: 70%;
+    }
+
+    /* qa */
+    .qa-box {
+        width: 90%;
+    }
+    .questions label {
+        font-size: 1.6rem;
+    }
+    .qa-contents {
+        font-size: 1.4rem;
+    }
+    .qa-contents p {
+        padding: 1.4rem 0 3rem;
+    }
+    .questions label:after {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .brackets {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        padding: 0;
+    }
+    .brackets:before, 
+    .brackets:after {   
+        position: absolute;
+        content: '';
+        width: 5rem;
+        height: 5rem;
+    }
+    .brackets:before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #ebb94d;
+        border-left: 4px solid #ebb94d;
+    }
+    .brackets:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #ebb94d;
+        border-right: 4px solid #ebb94d;
+    }
+    .brackets-white {
+        margin: 0 auto;
+        width: 75%;
+        position: relative;
+        padding: 3rem 2rem;
+    }
+    .brackets-white:before, 
+    .brackets-white:after {   
+        position: absolute;
+        content: '';
+        width: 50px;
+        height: 50px;
+    }
+    .brackets-white:before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #fff;
+        border-left: 4px solid #fff;
+    }
+    .brackets-white:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #fff;
+        border-right: 4px solid #fff;
+    }
+
+    /* about */
+    .about h2 {
+        width: 90%;
+        padding: 1rem 0;
+        margin: 3.6rem auto 5rem;
+    }
+
+    /* learning */
+    .learning {
+        padding-bottom: 3rem;
+    }
+    .learn-icons {
+        margin: 2rem auto;
+    }
+    .last-p {
+        font-size: 1.4rem;
+    }
+
+    /* merits */
+    .merits {
+        display: block;
+    }
+    .merits-title {
+        font-size: 2.4rem;
+        padding: 2rem 0;
+        margin: 1rem auto;
+    }
+    .merits-subtitle {
+        font-size: 1.6rem;
+    }
+    .merit img {
+        width: 30rem;
+        height: 18rem;
+    }
+    .merits-support {
+        padding-bottom: 3rem;
+        margin: 6rem auto 4rem;
+    }
+
+    .support-attention {
+        padding-bottom: 3rem;
+    }
+
+    /* member */
+    .members {
+        padding: 8rem 3rem 5rem;
+    }
+    .member {
+        width: 100%;
+        max-width: none;
+    }
+    .member-img {
+        position: relative;
+        bottom: -8%; 
+    }
+    .member-description {
+        width: 90%;
+        font-size: 1.4rem;
+        margin: 0 auto;
+        line-height: 2.3rem;
+
+    }
+    .member-description p {
+        margin: 1rem;
+        letter-spacing: .15rem;
+    }
+
+    /* qa */
+    .qa-title {
+        font-size: 1.8rem;
+    }
+    .qa h2 {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .triangle {
+        width: 2.6rem;
+        height: 2.6rem;
+        margin: 0 auto;
+        border-top: 2.6rem solid #ebb94d;
+        border-left: 2.6rem solid transparent;
+        border-right: 2.6rem solid transparent;
+    }
+
+    /* voice */
+    .comment {
+        font-size: 1.4rem;
+    }
+    .voice {
+        margin-bottom: 4rem;
+    }
+    .voice-img {
+        border: .3rem solid #ebb94d;
+        flex-basis: 31rem;
+    }
+    
+    .voice-right {
+        width: 70%;
+    }
+
+    /* contents */
+    .contents p {
+        font-size: 1.4rem;
+    }
+    .tables {
+        flex-wrap: wrap;
+        font-size: 1.4rem;
+        padding-bottom: 5rem;
+    }
+    .table {
+        flex-basis: 60rem;
+        margin: 1rem 0;
+    }
+    .table th {
+        font-size: 1.6rem;
+    }
+    .table th,
+    .table td {
+        padding: 1.6rem 1rem;
+    }
+
+    /* flow */
+    .flows {
+        padding-bottom: 1.6rem;
+    }
+    .flow-icon {
+        padding: 5rem 0 3rem;
+    }
+    .flow {
+        margin: 0 3rem;
+        padding: 1rem 3rem;
+    }
+
+    /* bangkok */
+    .bangkok h2 {
+        font-size: 2.5rem;
+    }
+    .bangkok-bold {
+        font-weight: normal;
+    }
+
+    /* benefits */
+    .benefits h2 {
+        margin: 3rem 0 4rem;
+    }
+    .benefits-box {
+        display: block;
+    }
+    .benefit {
+        margin: 0 auto 2rem;
+    }
+
+    /* purpose */
+    .purpose-title {
+        font-weight: normal;
+    }
+    .purpose-sub {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .purpose h1 {
+        width: 90%;
+        font-size: 2.4rem;
+    }
+    .purpose h2 {
+        padding: 6rem 0 2rem;
+    }
+
+    /* message-box */
+    .message-box {
+        display: block;
+        padding: 4rem 0 1rem 0;
+    }
+    .message-left {
+        width: 100%;
+    }
+    .message-left img {
+        width: 100%;
+    }
+    .message-right {
+        padding: 4rem 0 0 0;
+    }
+    .message-right p {
+        padding-bottom: 2rem;
+    }
+    .message-point {
+        padding: 1.8rem 0;
+    }
+
+    /* contact-formここから */
+    .contact-form p {
+        font-size: 1.4rem;
+    }
+    input {
+        width: 70%;
+        margin: 1.4rem 0;
+    }
+    textarea {
+        width: 70%;
+    }
+
+    /* qa */
+    .qa-box {
+        margin-top: 4.2rem;
+    }
+
+
+}
+
+@media (max-width: 768px ) {
+    /* body */
+    .wrap {
+        padding-top: 6rem;
+    }
+    .txtl {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 2.8rem;
+    }
+    .txtm {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .txtxs {
+        font-size: 1.3rem;
+        font-weight: lighter;
+    }
+    .r-br {
+        display: block;
+    }
+    .r-br-minus {
+        display: none;
+    }
+    .back-top {
+        width: 5rem;
+        height: 5rem;
+        position: fixed;
+        right: 1rem;
+        bottom: 2rem;
+        background-color: #ECECEC;
+    }
+    .back-top a {
+        display: block;
+        text-decoration: none;
+        color: #333;
+        font-size: 1.6rem;
+        line-height: 5rem;
+    }
+    .brackets {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+    }
+    .brackets:before, 
+    .brackets:after {   
+        position: absolute;
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    .brackets:before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #ebb94d;
+        border-left: 4px solid #ebb94d;
+    }
+    .brackets:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #ebb94d;
+        border-right: 4px solid #ebb94d;
+    }
+    .brackets-white {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        padding: 1rem;
+    }
+    .brackets-white:before, 
+    .brackets-white:after {   
+        position: absolute;
+        content: '';
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    .brackets-white:before {
+        top: 0;
+        left: 0;
+        border-top: 4px solid #fff;
+        border-left: 4px solid #fff;
+    }
+    .brackets-white:after {
+        bottom: 0;
+        right: 0;
+        border-bottom: 4px solid #fff;
+        border-right: 4px solid #fff;
+    }
+
+    /* ヘッダー */
+    .header-box {
+        height: 6rem;
+        padding: 0;
+    }
+    .header-left {
+        display: block;
+        text-align: left;
+        margin: 1rem;
+    }
+    .header-left-img img{
+        width: 9rem;
+        padding: 0;
+    }
+    .subtitle {
+        padding-top: 1rem; 
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .hr-txt {
+        display: none;
+    }
+    .hr-btn {
+        display: block;
+        margin: 0;
+        height: 6rem;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .hr-btn img {
+        width: 2rem;
+    }
+    .hr-btn a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* top */
+    .cover-img {
+        height: 31rem;
+        background-image: url(../img/mainsp.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding: 3rem 0 3rem;
+    }
+    .top-title {
+        padding-top: 0;
+    }
+    .top-logo img {
+        width: 32rem; 
+        margin-bottom: 4rem;
+    }
+
+    /* conversationここから */
+    .terms p {
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+    }
+    .social-wrap {
+        padding-bottom: 3rem;
+    }
+    .twitter {
+        background-color: #3C95E0;
+        color: #fff;
+        font-size: 1.1rem;
+        margin-right: .3rem;
+        padding: .4rem .4rem;
+        border-radius: .3rem;
+    }
+    .fb-good {
+        background-color: #4267B2;
+        color: #fff;
+        font-size: 1.1rem;
+        margin-right: .3rem;
+        padding: .4rem .4rem;
+        border-radius: .3rem;
+    }
+    .fb-share {
+        background-color: #4267B2;
+        color: #fff;
+        font-size: 1.1rem;
+        margin-right: .3rem;
+        padding: .4rem .4rem;
+        border-radius: .3rem;
+    }
+
+    /* intro */
+    .intro {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+        padding-top: 3rem;
+        padding-bottom: 6rem;
+    }
+    .intro h2 {
+        line-height: 4rem;
+        padding: 2rem 0;
+    }
+    .intro p {
+        padding: 1.6rem 0;
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        line-height: 2.4rem;
+    }
+    .em-second {
+        font-weight: 600;
+        background: linear-gradient(transparent 70%, #EBB94D 70%);
+    }
+
+    /* about */
+    .about-title {
+        margin: 0 auto;
+        background-color: #EBB94D;
+        color: #fff;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 50%;
+        position: relative;
+        top: -2.6rem;
+    }
+    .about h2 {
+        width: 100%;
+        line-height: 4rem;
+        padding: 1rem 0;
+    }
+    .about-title2 {
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+    }
+    .skills {
+        padding: 1rem 0;
+        border: .2rem solid #ebb94d;
+    }
+    .skill {
+        padding: .3rem;
+    }
+    .skill img {
+        max-width: 30%;
+        height: auto;
+    }
+    .skill p {
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+    /* about-second */
+    .about-second {
+        width: 100%;
+        background-image: url(../img/aboutsecondbgsp.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .about-second h2 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        padding: 2rem;
+        font-weight: normal;
+    }
+    .about-second h3 {
+        font-size: 1.3rem;
+        letter-spacing: .08rem;
+        padding-bottom: .8rem;
+    }
+    .step {
+        display: block;
+        width: 100%;
+        margin: 0 auto 2rem;
+        padding: .1rem;
+    }
+    .step p {
+        margin: 1.4rem auto;
+        letter-spacing: normal;
+        font-weight: 600;
+    }
+    .step-title{
+        font-size: 1.2rem;
+        border-radius: .5rem;
+        padding: .4rem;
+    }
+    .step-subtitle {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .step-txt {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* about-third */
+    .about-third {
+        padding: 2rem;
+    }
+    .about-third p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    /* learning */
+    .learning h2 {
+        margin: 4.6rem 0 4.2rem;
+        font-size: 1.8rem;
+    }
+    .isara:after {
+        font-size: 1rem;
+    }
+    .learning p {
+        margin: 2rem 0 .4rem;
+        font-size: 1.5rem;
+    }
+    .last-p {
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
+
+    /* merits */
+    .merits-wrap {
+        padding-top: 2rem;
+    }
+    .merits {
+        display: block;
+        margin-top: 2rem;
+    }
+    .merits-title {
+        font-size: 2.2rem;
+        line-height: 2rem;
+        margin: 0;
+        padding: 2.6rem;
+    }
+    .merits-subtitle {
+        font-size: 1.4rem;
+    }
+    .merit {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .merit img {
+        width: 100%;
+        height: 12rem;
+        object-fit: cover;
+    }
+    .merit-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .merit-title {
+        font-weight: normal;
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+    }
+    .merit-text p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        line-height: 2rem;
+    }
+    .merits-support {
+        width: 100%;
+        margin: 3rem auto 1.4rem;
+        padding: .5rem 0;
+    }
+    .support-title {
+        font-size: 1.8rem;
+        padding: 0;
+    }
+    .support-text {
+        font-size: 1rem;
+        letter-spacing: -.2rem;
+        line-height: 1.4rem;
+    }
+    .support-attention {
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+        padding-bottom: 3rem;
+    }
+
+    /* member */
+    .members {
+        background-image: url(../img/teacherbgsp.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 7rem 0 0;
+    }
+    .members-subtitle {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    .member {
+        width: 100%;
+        min-width: 40rem;
+        margin-top: -7rem;
+    }
+    .member-img {
+        bottom: -15%;
+    }
+    .member img {
+        width: 12rem;
+    }
+    .member-description {
+        font-size: 1.2rem;
+        margin: 2rem auto 4rem;
+        padding: 3rem 0 1rem;
+        line-height: 2rem;
+        letter-spacing: .1rem;
+    }
+
+    /* qa */
+    .qa {
+        padding: 2rem;
+    }
+    .qa-title {
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+    .qa h2 {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+    }
+    .triangle {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin: 0 auto;
+        border-top: 1.4rem solid #ebb94d;
+        border-left: 1.4rem solid transparent;
+        border-right: 1.4rem solid transparent;
+    }
+
+    /* voice */
+    .voices h2 {
+        margin: 1rem;
+    }
+    .voices-txt {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        letter-spacing: normal;
+    }
+    .voice {
+        margin: 3rem 0 4rem;
+    }
+    .comment {
+        font-size: 1.2rem;
+    }
+    .voice-img {
+        border: .3rem solid #ebb94d;
+        flex-basis: 21rem;
+    }
+    .voice-right {
+        width: 70%;
+        margin: 0 0 0 2rem;
+    }
+
+    /* contents */
+    .contents {
+        background-image: url(../img/classbgsp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .tables {
+        font-size: 1.2rem;
+    }
+    .table {
+        flex-basis: 100%;
+        margin: 1rem 0;
+    }
+    .table th {
+        font-size: 1.4rem;
+        padding: 2rem 0;
+    }
+    .table td {
+        padding: 1.4rem 0;
+    }
+    .contents p {
+        font-size: 1.2rem;
+        padding-bottom: 3rem;
+    }
+
+    /* contents-secondここから */
+    .contents-second {
+    padding: 2rem;
+    }
+
+    /* flowsここから */
+    .flows {
+        display: none;
+    }
+    .flow-icon {
+        display: none;
+    }
+    .flows-acd-title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        padding: 4rem 0;
+    }
+        /* flows アコーディオンメニュー */
+        .flows-ac-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding-bottom: 4rem;
+        }
+        .flows-ac {
+            display: block;
+            min-width: 300px;
+            margin: 5rem auto;
+            padding: 0;
+          }
+          .flows-ac .flows-ac-content {
+            margin: 0;
+            padding: 0;
+          }
+          .flows-ac input {
+            display: none;
+          }
+          .flows-ac label {
+            display: block;
+            background: #FEF5E0;
+            cursor: pointer;
+            padding: .8rem 2rem;
+            box-sizing: border-box;
+            text-align: left;
+            font-size: 1.6rem;
+            font-weight: bold;
+            border-radius: .3rem;
+            box-shadow: 0 1px #ececec;
+          }
+          .flows-ac label:hover {
+            text-decoration: underline;
+          }
+          .flows-ac .ac-cont {
+            transition: 0.6s;
+            height: 0;
+            overflow: hidden;
+            background: #FEF5E0;
+            padding: 0 10px;
+            text-align: left;
+          }
+          .flows-ac input:checked + label + .ac-cont {
+            height: auto;
+            padding: 10px;
+          }
+          .ac-cont {
+              margin-bottom: .4rem;
+          }
+          .ac-cont p {
+              padding: 0 1rem 1rem;
+              line-height: 1.8rem;
+          }
+          .fr-bold {
+              font-size: 1.2rem;
+          }
+          .ac-cont-1:before {
+            content: '';
+            display: inline-block;
+            width: 3.8rem;
+            height: 3.8rem;
+            margin-right: 1rem;
+            background-image: url(../img/skypeconsulting.png);
+            background-size: contain;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+        }
+        .ac-cont-2:before {
+            content: '';
+            display: inline-block;
+            width: 4rem;
+            height: 4rem;
+            margin-right: 1rem;
+            background-image: url(../img/preworks\ \(1\).png);
+            background-size: contain;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+        }
+        .ac-cont-3:before {
+            content: '';
+            display: inline-block;
+            width: 4rem;
+            height: 4rem;
+            margin-right: 1rem;
+            background-image: url(../img/flight\ \(1\).png);
+            background-size: contain;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+        }
+        .ac-cont-4:before {
+            content: '';
+            display: inline-block;
+            width: 4rem;
+            height: 4rem;
+            margin-right: 1rem;
+            background-image: url(../img/personwithlight\ \(1\).png);
+            background-size: contain;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+        }
+        .ac-cont-5:before {
+            content: '';
+            display: inline-block;
+            width: 4rem;
+            height: 4rem;
+            margin-right: 1rem;
+            background-image: url(../img/jobsupport\ \(1\).png);
+            background-size: contain;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+        }
+        label:after {
+            float: right;
+            padding-top: 1.2rem;
+            content: '\f107';
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-size: 2.2rem;
+        }
+        .flows-ac input:checked + label:after {
+            content: '\f077';
+            font-size: 1.8rem;
+            font-weight: 900;
+        }
+ 
+    /* bangkok */
+    .bangkok {
+        padding: 2rem 0;
+        background-image: url(../img/bangkokbgsp.jpg);
+    }
+    .bangkok h2 {
+        font-size: 2.4rem;
+        letter-spacing: .4rem;
+        text-align: center;
+        margin: 2rem 0 0 2rem ;
+    }
+    .bangkok-first-txt {
+        font-size: 1.2rem;
+        padding:  1.6rem 0 1.2rem;
+        letter-spacing: normal;
+    }
+    .bangkok-bold {
+        font-size: 1.2rem;
+        font-weight: normal;
+        line-height: 1rem;
+    }
+    .bangkok-last-txt {
+        font-size: 1.5rem;
+        padding: 0 0 1rem 0;
+    }
+
+    /* benefits */
+    .benefits {
+        padding: .8rem;
+    }
+    .benefits h2 {
+        padding: 2.4rem;
+        margin: 0;
+    }
+    .benefits-box {
+        display: none;
+    }
+    .benefits-subtitle {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin-bottom: 0;
+    }
+    .benefits-title {
+        font-size: 1.7rem;
+        width: 60%;
+        position: relative;
+        bottom: -4rem;
+    }
+    .rs-benefits-box {
+        display: block;
+        padding: 6rem 2rem 2rem 6rem;
+        margin-bottom: 1.2rem;
+        border: .2rem solid #fff;
+    }
+    .rs-benefit {
+        padding-bottom: 1.6rem;
+    }
+    .rs-benefit-left {
+        display: inline-block;
+    }
+    .rs-benefit-left p {
+        background-color: #fff;
+        width: 6rem;
+        height: 6rem;
+        line-height: 6rem;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #F7C23E;
+    }
+    .rs-benefit-right {
+        display: inline-block;
+        width: 80%;
+        text-align: left;
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding-left: 5rem;
+    }
+
+    /* purpose */
+    .purpose {
+        background-image: url(../img/specialdetailsp.jpg);
+        background-position: center;
+    }
+    .purpose-title {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+    .purpose-sub {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .purpose h1 {
+        font-size: 1.8rem;
+        line-height: 3.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    /* message */
+    .members-subtitle {
+        padding-bottom: 4rem;
+    }
+    .message h2 {
+        margin: 4rem 0 2rem;
+    }
+    .message-sub {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        padding: 2rem 0 1rem;
+    }
+    .message-box {
+        padding: 1rem 0;
+    }
+    .message-right {
+        padding-top: 1rem;
+        letter-spacing: normal;
+    }
+    
+
+    /* contact-form */
+    .contact-form {
+        margin-top: 3rem;
+    }
+    .contact-form p {
+        font-size: 1.2rem;
+    }
+    .item input {
+        width: 95%;
+        margin: 1.4rem 1rem;
+    }
+    .item textarea {
+        width: 95%;
+        font-size: 1.3rem;
+        padding-top: 1.3rem;
+        margin: 4rem 0 2.6rem;
+    }
+    .submit input {
+        width: 95%;
+        font-size: 2rem;
+    }
+
+    /* questions */
+    .qa-box {
+        width: 95%;
+        margin: 2rem auto 4rem;
+    }
+    .questions label {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    .qa-contents {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .qa-contents p {
+        padding: 1.4rem 0 3rem;
+    }
+    .questions label:after {
+        padding: 0 .1rem 0 0;
+        font-size: 2rem;
+    }
+
+    /* footer */
+    footer {
+        padding: 2rem 0 .2rem;
+    }
+    .ft-social-wrap {
+        padding-bottom: 3rem;
+    }
+}
+
