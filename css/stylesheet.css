@@ -12,70 +12,65 @@ body {
     text-align: center;
     font-size: 1.4em;
 }
-.wrap {
-    padding-top: 8rem;
-}
-.container {
-    width: 95%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
 a {
     text-decoration: none;
-}
-h1, h2, h3, h4, p {
-    font-size: 100%;
-    letter-spacing: .2rem;
-    margin: 0;
-    padding: 0;
 }
 img {
     max-width: 100%;
     height: auto;
 }
 .page-top {
-    width: 0;
-    height: 0;
+    top: 0;
+    right: 0;
 }
-.back-top {
+.page-top-btn {
+    display: block;
     width: 7rem;
     height: 7rem;
+    line-height: 8rem;
     position: fixed;
     right: 5rem;
     bottom: 10rem;
     background-color: #ECECEC;
-    
-}
-.back-top a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    font-size: 3rem;
-    line-height: 7rem;
 }
 .fa-chevron-up {
     text-decoration: none;
+    color: #333;
+    font-size: 3rem;
 }
-.txtl {
+.local-title {
+    display:inline;
     font-size: 2.8rem;
     font-weight: 600;
     line-height: 5rem;
+    letter-spacing: .2rem;
+    padding: 1rem 0;
 }
-.txtm {
+.main-text {
     font-size: 2rem;
     letter-spacing: .2rem;
     line-height: 3rem;
 }
-.txtxs {
+.sp-main-text {
+    font-size: 1.2rem;
+}
+.text-small {
     font-size: 1.2rem;
     font-weight: lighter;
+}
+.bold {
+    font-weight: 600;
+}
+.key-color {
+    color: #ebb94d;;
 }
 .r-br {
     display: none;
 }
 .brackets {
     margin: 0 auto;
-    width: 75%;
+    width: 860px;
+    max-width: calc(100% - 40px);
     position: relative;
     padding: 3rem 2rem;
 }
@@ -100,7 +95,8 @@ img {
 }
 .brackets-white {
     margin: 0 auto;
-    width: 75%;
+    width: 860px;
+    max-width: calc(100% - 40px);
     position: relative;
     padding: 3rem 2rem;
 }
@@ -123,13 +119,13 @@ img {
     border-bottom: 4px solid #fff;
     border-right: 4px solid #fff;
 }
-
 .orange {
     color: #ebb94d;
 }
 .bold {
     font-weight: bold;
 }
+
 /* ヘッダーここから */
 header {
     width: 100%;
@@ -155,32 +151,29 @@ header {
     flex-direction: row-reverse;
     align-items: flex-end;
 }
-.header-left-img img{
+.header-logo {
     width: 13rem;
 }
-.subtitle {
+.header-subtitle {
     margin: 0 0 .8rem .5rem; 
     font-weight: bold;
     letter-spacing: .1rem;
 }
-.hr-txt p {
+.header-contact {
     background-color: #DA6B64;
     color: #fff;
     font-size: 1.4rem;
     padding: 1.5rem 5rem;
     border-radius: 2.5rem;
 }
-.hr-btn {
-    background-color: #DA6B64;
-    color: #fff;
+.header-btn {
     display: none;
-}
-.hr-btn P {
-    color: #fff;
-    font-size: 12px;
 }
 
 /* top*/
+.top {
+    margin-top: 8rem;
+}
 .cover-img {
     width: 100%;
     height: 50rem;
@@ -190,13 +183,16 @@ header {
     background-repeat: no-repeat;
 }
 .top-title {
-    padding-top: 9rem;
+    font-size: 2.8rem;
+    letter-spacing: .1rem;
+    line-height: 6rem;
+    padding-top: 7rem;
 }
-.top-logo img {
+.top-logo {
     width: 32rem; 
-    margin: 1rem 0 5rem 0;
 }
 .top-subtitle {
+    margin-top: 3rem;
     font-weight: bold;
     line-height: 2rem;
 }
@@ -215,16 +211,12 @@ header {
     background-color: #fff;
     color: #C8394F;
     font-size: 1.8rem;
-    font-weight: 600;
     padding: .2rem;
     border-radius: .4rem;
 }
-.request {
-    width: 90%;
-    margin: 0 auto;
-}
-.request a {
+.request-btn {
     display: block;
+    width: 70%;
     margin: 6rem auto;
     background-color: rgb(218, 107, 100);
     cursor: pointer;
@@ -234,25 +226,28 @@ header {
     letter-spacing: .2rem;
     border-radius: 6rem;
 }
-.request a:hover {
+.request-btn:hover {
     background-color: rgb(216, 64, 53);
 }
-.terms p {
+.terms-text {
     margin-bottom: 3rem;
 }
 .social-wrap {
     padding-bottom: 3rem;
 }
 .sc-btn {
-    background-color: #3C95E0;
     color: #fff;
     font-size: 1.2rem;
     margin: 0 .1rem;
     padding: .5rem .5rem;
     border-radius: .3rem;
 }
-.fb-good, .fb-share {
-    background: #4267B2;
+.twitter {
+    background-color: #3C95E0;
+}
+.fb-good, 
+.fb-share {
+    background-color: #4267B2;
 }
 
 /* intro */
@@ -260,13 +255,7 @@ header {
     background-image: url(../img/introbottom.jpg);
     background-size: cover;
     background-position: center center;
-    padding-top: 4rem;
-    padding-bottom: 14rem;
-}
-.intro p {
-    padding: 2rem 0;
-    font-size: 2rem;
-    line-height: 3rem;
+    padding: 3rem 0 14rem;
 }
 .em-second {
     font-weight: 600;
@@ -278,7 +267,7 @@ header {
     background-color: #FEF5E0;
     padding-bottom: 6rem;
 }
-.about-title {
+.about-logo {
     margin: 0 auto;
     background-color: #EBB94D;
     color: #fff;
@@ -291,31 +280,24 @@ header {
     position: relative;
     top: -4rem;
 }
-.about h2 {
-    margin: 2rem auto;
-    width: 70%;
-}
-.about-title2 {
+.about-subtitle {
     padding-bottom: 3rem;
-    font-weight: 600;
 }
 .skills {
-    width: 100%;
+    width: 1170px;
+    max-width: calc(100% - 40px);
     background-color: #fff;
     margin: 0 auto;
     padding: 4rem 0;
     border: .2rem solid #ebb94d;
 }
-.skills h3 {
-    margin: 1rem 0;
-    font-weight: 600;
-}
 .skill {
     display: inline-block;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
 }
-.skill p {
+.skill-text {
+    padding-top: 1rem;
     line-height: 2rem;
 }
 
@@ -325,18 +307,13 @@ header {
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding: 3rem 0;
+    padding: 5rem 0 3rem;
 }
-.about-second h2 {
-    padding: 2rem 0 1rem;
-    font-weight: normal;
-}
-.about-second h3 {
-    padding: 1.2rem;
-    line-height: 2rem;
+.as-subtitle {
+    padding-top: 1rem;
 }
 .steps {
-    margin: 2.2rem auto;
+    margin: 2.5rem auto;
 }
 .step {
     display: inline-block;
@@ -346,9 +323,6 @@ header {
     margin: 0 .5rem;
     padding: 2.5rem 1.6rem;
     border-radius: .5rem;
-}
-.step p {
-    font-weight: 600;
 }
 .step-title{
     background-color: #ebb94d;
@@ -362,9 +336,10 @@ header {
     margin: 3rem 0;
     font-size: 1.4rem;
 }
-.step-txt {
+.step-text {
     margin: 3rem 0 0;
     font-size: 1.6rem;
+    letter-spacing: .1rem;
 }
 
 /* about-thirdここから */
@@ -373,37 +348,33 @@ header {
     color: #fff;
     padding: 4rem 0;
 }
-.about-third p {
-    font-size: 2rem;
-    line-height: 3rem;
-}
 
 /* learningここから */
 .learning {
-    padding-bottom: 5rem;
+    margin: 6rem auto 5rem;
 }
-.learning h2 {
-    margin: 6rem 0 4rem;
+.learning-subtitle {
+    margin-top: 3rem;
 }
 .isara::after {
     content: '[イサラ]';
     font-size: 2rem;
 }
-.learning p {
-    margin: 2rem 0 5rem;
-    line-height: 2.5rem;
-}
 .learn-icons {
-    margin: 0 auto 5rem;
-    width: 100%;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
+    margin: 4rem auto 5rem;
+    max-width: calc(100% - 4rem);
 }
-.learn-icons img {
-    display: block;
-    max-width: 20rem;
-    width: 20%;
-    margin: 0 auto;
+.learn-icons-img {
+    width: 18rem;
+    height: auto;
+    max-width: 100%;
+    /* ↓ FlexBoxで可変要素がはみ出ないようにする */
+    min-width: 0; 
+    max-height: 100%;
+    margin: 0 2rem;
 }
 .last-p {
     font-weight: bold;
@@ -414,66 +385,60 @@ header {
 /* merits */
 .merits-wrap {
     background-color: #FEF5E0;
-    padding-top: 3rem;
-}
-.merits {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
+    padding-top: 2rem;
 }
 .merits-subtitle {
     padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
 }
+.merits {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
 .merit {
-    width: 30%;
-    margin: 0 1.5rem;
+    margin: 0 1rem;
+    width: 25%;
+}
+.merit-img-res {
+    display: none;
 }
 .merit-title {
     text-align: left;
-    color: #ebb94d;
-    font-size: 2rem;
-    font-weight: normal;
     padding: 1rem 0;
+    color: #ebb94d;
+    font-size: 1.9rem;
+    letter-spacing: .2rem;
 }
-.merit-text p {
+.merit-text {
     text-align: left;
-    font-size: 1.5rem;
     padding: .5rem 0;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
     line-height: 2.5rem;
 }
 .merits-support {
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     margin: 3rem auto;
     padding: 2rem 2rem 5rem;
     border: .2rem solid #ebb94d;
     border-radius: .5rem;
 }
-.support-title {
-    color: #ebb94d;
-    font-size: 2.8rem;
-    font-weight: bold;
-    padding: 2rem 0 1rem;
-}
-.merits-support h3 {
-    margin: 1rem;
-}
-.merits-support P {
-    margin: 1rem;
-    font-weight: bold;
-}
 .support-text {
+    padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 2.4rem;
+    letter-spacing: .1rem;
 }
 .support-attention {
     margin: 0 auto;
-    padding: 0 4rem 5rem;
+    padding: 1rem 4rem 5rem;
     font-size: 1.4rem;
     font-weight: lighter;
     line-height: 2rem;
+    letter-spacing: .1rem;
 }
 
 /* members */
@@ -484,24 +449,31 @@ header {
     color: #fff;
     padding: 8rem 0 2rem;
 }
-.members h2 {
-    margin-bottom: 3rem;
+.members-title {
+    margin-bottom: 2rem;
     font-weight: normal;
 }
+.members-subtitle {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+}
 .member-wrap {
+    width: 80%;
+    margin: 0 auto 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .member {
-    width: 40%;
+    width: calc(100% / 2);
     max-width: 40rem;
 }
-.member-img {
+.member-img-wrap {
     position: relative;
-    bottom: -10%; 
+    bottom: -8%;
 }
-.member img {
+.member-img {
     border-radius: 50%;
 }
 .member-description {
@@ -512,7 +484,7 @@ header {
     line-height: 2.5rem;
     letter-spacing: .1rem;
 }
-.member-description p {
+.mb-text {
     margin: 1rem;
 }
 .left {
@@ -525,7 +497,7 @@ header {
     color: #fff;
     padding: 3rem;
 }
-.qa-title {
+.qa-logo {
     width: 8rem;
     height: 8rem;
     line-height: 8rem;
@@ -536,14 +508,10 @@ header {
     font-size: 2rem;
     font-weight: 300;
 }
-.qa h2 {
-    font-weight: normal;
-    line-height: 4rem;
-}
 .triangle {
     width: 3rem;
     height: 3rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     border-top: 3rem solid #ebb94d;
     border-left: 3rem solid transparent;
     border-right: 3rem solid transparent;
@@ -553,17 +521,13 @@ header {
 .voices {
     padding-bottom: 3rem;
 }
-.voices h2 {
+.voices-subtitle {
     margin: 2rem;
 }
 .comment {
     font-size: 1.6rem;
     font-weight: bold;
     margin-bottom: 3rem;
-}
-.voices-txt {
-    letter-spacing: .2rem;
-    font-size: 1.4rem;
 }
 .voice {
     display: flex;
@@ -575,10 +539,10 @@ header {
     flex-basis: 25rem;
 }
 .voice-right {
-    width: 45%;
+    width: 35%;
     margin: 1rem 0 2rem 3rem;
     text-align: left;
-    color: #777;
+    color: #999;
     font-size: 1.8rem;
     line-height: 3rem;
     font-style: italic;
@@ -594,23 +558,21 @@ header {
     background-image: url(../img/classbg.jpg);
     background-size: cover;
     background-position: center;
+    padding: 5rem 0 1rem;
     color: #fff;
 }
-.contents h2 {
-    font-weight: normal;
-    padding: 5rem 0 2rem;
-}
-.contents p {
+.contents-subtitle {
+    margin: 2rem 0;
     font-size: 1.6rem;
 }
-.tables {
+.contents-tables {
     margin: 4rem auto 0;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     font-size: 1.6rem;
 }
-.table {
+.contents-table {
     flex-basis: 38rem;
     margin: 3rem 1.6rem 7rem;
     border-collapse: separate;
@@ -619,19 +581,19 @@ header {
     border-radius: .5rem;
     overflow: hidden;
 }
-.table th,
-.table td {
+.contents-table th,
+.contents-table td {
     padding: 1.8rem 1.2rem;
     letter-spacing: .1rem;
 }
-.table th {
+.contents-table th {
     background-color: #2B6EA9;
     color: #fff;
     font-size: 2rem;
     padding: 2rem;
     border-bottom: .1rem solid #2B6EA9;
 }
-.table td {
+.contents-table td {
     background-color: #fff;
     color: #333;
     font-weight: bold;
@@ -647,13 +609,13 @@ header {
 
 /* flowsここから */
 .flows {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 .flow-icon {
-    padding: 3rem;
+    padding: 5rem 0;
 }
 .flow {
-    width: 98%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -668,30 +630,29 @@ header {
     align-items: center;
     flex-basis: 20rem;
 }
-.flow-left p {
+.fl-title {
     font-size: 1.8rem;
     font-weight: bold;
     padding-top: 2rem;
+    line-height: 3rem;
 }
 .flow-right {
     flex-basis: 80%;
     text-align: left;
     margin-left: 20px;
 }
-.flow-right p {
+.fr-text-m {
     margin: 2rem 0;
-}
-.fr-bold {
-    font-weight: bold;
     font-size: 1.6rem;
     line-height: 2.4rem;
+    letter-spacing: .1rem;
 }
-.fr-txt {
+.fr-text-s {
     font-weight: normal;
     font-size: 1.4rem;
     line-height: 2rem;
 }
-.flowline {
+.flow-line {
     width: 60%;
     margin: 0 auto;
 }
@@ -711,54 +672,53 @@ header {
     background-position: center;
     text-align: left;
     color: #fff;
-    padding: 5rem 0 8rem;
+    padding: 8rem 10rem 8rem;
 }
-.bangkok h2 {
-    font-size: 2.4rem;
-    margin: 4rem 0 3rem 3rem;
+.bangkok-title {
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
 }
-.bangkok-first-txt {
-    font-size: 1.4rem;
-    font-weight: normal;
+.bangkok-first-text {
+    padding: 3rem 0;
     line-height: 2rem;
+    letter-spacing: .1rem;
 }
-.bangkok p {
-    margin: 2rem 0 0 2rem;
-}
-.bangkok-bold {
+.bangkok-point {
     font-size: 1.6rem;
-    font-weight: bold;
+    padding-bottom: 2rem;
 }
-.bangkok-last-txt {
+.bangkok-last-text {
     font-size: 2rem;
+    margin: 2rem 0;
 }
 
 /* benefitsここから */
 .benefits {
     background-color: #F7C23E;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 4rem;
-}
-.benefits h2 {
-    margin: 2rem 0 4rem;
 }
 .benefits-subtitle {
     font-size: 1.6rem;
-    margin-bottom: 4rem;
+    margin: 4rem 0;
+    letter-spacing: .2rem;
 }
 .white {
     color: #fff;
 }
-.benefits-title {
-    width: 50%;
+.benefits-tokuten-title {
+    width: 45%;
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+    letter-spacing: .1rem;
     margin: 0 auto;
     background-color: #F7C23E;
     padding: 1rem;
     position: relative;
-    bottom: -4rem;
+    bottom: -2rem;
 }
 .benefits-box {
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -775,13 +735,12 @@ header {
 .benefit-title {
     font-size: 2.2rem;
     color: #F7C23E;
-    padding: 1rem 0;
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
-.benefit-txt {
+.benefit-text {
     position: absolute;
     top: 50%;
     left: 0;
@@ -789,7 +748,8 @@ header {
     padding: 2rem 1rem 0;
     font-weight: bold;
     font-size: 1.4rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: .1rem;
 }
 .rs-benefits-box {
     display: none;
@@ -801,89 +761,75 @@ header {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    padding-bottom: 6rem;
+    padding: 6rem 0;
 }
-.purpose h1 {
-    font-size: 2.8rem;
-    margin: 2rem auto;
-    font-weight: normal;
-}
-.purpose h2 {
-    margin: 0 auto;
-    padding: 5rem 0 2rem;
-}
-.purpose-sub {
+.purpose-text {
+    padding: 2rem 0;
     line-height: 3rem;
-    font-size: 2rem;
+    letter-spacing: .2rem;
 }
 
 /* messageここから */
 .message {
-    margin-bottom: 8rem;
+    padding: 5rem 0 8rem;
+}
+.message-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 4rem 0;
 }
 .message-box {
     display: flex;
-    padding: 4rem 12rem;
-}
-.message h2 {
-    margin: 4rem 0 3rem;
-}
-.message-sub {
-    font-size: 2rem;
-    font-weight: bold;
-    padding-bottom: 2rem;
+    width: 65%;
+    margin: 0 auto;
 }
 .message-left {
-    width: 55rem;
+    width: 60%;
 }
 .message-right {
     text-align: left;
     font-size: 1.4rem;
-    font-weight: normal;
     padding: 0 3rem;
 }
-.message-right p {
-    padding-bottom: 2rem;
+.message-text {
     line-height: 2rem;
+    letter-spacing: .1rem;
 }
 
 /* contact-formここから */
-.contact-form {
-    margin: 5rem 0;
+.app-for-brochures {
+    padding: 5rem 0;
     padding-bottom: 5rem;
     background-color: #EBB94D;  
 }
-.contact-form h2 {
-    padding: 5rem 0 2rem;
-}
-.contact-form p {
+.contact-form-text {
     font-size: 1.6rem;
     font-weight: bold;
-    padding-bottom: 2rem;
+    padding: 3rem 0;
+    letter-spacing: .1rem;
 }
-.item {
-    width: 100%;
+.contact-item {
     margin: 0 auto;
 }
-.item input {
-    width: 60%;
+.contact-info {
+    width: 70%;
     height: 5rem;
-    border-radius: .5rem;
     margin: 1.4rem 0;
     font-size: 1.4rem;
     border-style: none;
-}
-.item textarea {
-    width: 60%;
-    height: 10rem;
     border-radius: .5rem;
-    margin: 2rem 0;
-    font-size: 1.6rem;
-    border-style: none;
 }
-.submit input {
+.contact-notes {
+    width: 70%;
+    height: 10rem;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    border-style: none;
+    border-radius: .5rem;
+}
+.contact-submit {
     background-color: #DA6B64;
-    width: 60%;
+    width: 70%;
     padding: 1.4rem 0;
     border-radius: 3rem;
     border-style: none;
@@ -894,10 +840,13 @@ header {
 }
 
 /* questions */
-    /* 全体 */
+/* 全体 */
+.questions {
+    padding: 5rem;
+}
 .qa-box {
     display: block;
-    margin: 2rem auto 6rem;
+    margin: 5rem auto 6rem;
     padding: 0;
     width: 75%;
 }
@@ -937,7 +886,7 @@ header {
     text-align: left;
     margin-bottom: .2rem;
 }
-.qa-contents p {
+.qa-text {
     border-bottom: .1rem solid #e5e5e5;
     padding: 2rem 0 3rem;
 }
@@ -965,9 +914,10 @@ footer {
     padding: 3rem;
     background-color: #ECECEC;
 }
-footer p {
+.footer-text {
     font-size: .3rem;
     line-height: 1.8rem;
+    letter-spacing: .2rem;
 }
 .ft-social-wrap {
     padding: 2rem 0 4rem;

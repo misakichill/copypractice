@@ -1,0 +1,117 @@
+@media (max-width: 990px) {
+/* merits */
+.merits {
+    display: block;
+}
+.merits-subtitle {
+    font-size: 1.6rem;
+}
+.merit {
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 4rem;
+}
+.merit-img-res {
+    margin: 0 auto;
+}
+.merit-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+.merits-support {
+    padding: 4rem;
+}
+.support-attention {
+    padding-bottom: 3rem;
+}
+
+/* member */
+.members {
+    padding: 8rem 3rem 5rem;
+}
+.member-wrap {
+    width: 100%;
+}
+.member {
+    width: 90%;
+    max-width: none;
+}
+.member-description {
+    margin: 0 auto;
+}
+
+/* qa */
+.qa-title {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+/* voice */
+.comment {
+    font-size: 1.4rem;
+}
+.voice {
+    width: 90%;
+    margin-bottom: 4rem;
+}
+.voice-right {
+    width: 70%;
+}
+
+/* contents */
+.contents {
+    padding-bottom: 5rem;
+}
+.contents-tables {
+    display: block;
+}
+.contents-subtitle {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    margin-bottom: 6rem;
+}
+.contents-table {
+    width: 60%;
+    margin: 2rem auto 0;
+}
+
+/* flow */
+.flow-icon {
+    width: calc(100% - 8rem);
+}
+.flow {
+    width: 85%;
+}
+
+/* benefits */
+.benefits-box {
+    display: block;
+}
+.benefit {
+    margin: 0 auto 2rem;
+}
+
+/* message-box */
+.message-box {
+    display: block;
+    padding: 4rem 0 1rem 0;
+}
+.message-left {
+    width: 100%;
+}
+.message-right {
+    padding: 4rem 0 0 0;
+}
+
+/* contact-formここから */
+.contact-form-text {
+    font-size: 1.4rem;
+}
+
+/* qa */
+.qa-box {
+    margin-top: 4.2rem;
+}
+
+
+}
